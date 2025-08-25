@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Viikko1Application",
+            "request": "launch",
+            "mainClass": "hh.backend.viikko1.Viikko1Application",
+            "projectName": "viikko-1"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-C1Application<viikko-1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "hh.backend.c1.C1Application",
+            "projectName": "viikko-1",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
