@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BookstoreApplication",
+            "request": "launch",
+            "mainClass": "hh.backend.bookstore.BookstoreApplication",
+            "projectName": "bookstore"
+        },
+        {
+            "type": "java",
             "name": "Viikko3Application",
             "request": "launch",
             "mainClass": "hh.backend.viikko3.Viikko3Application",
