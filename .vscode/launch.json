@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Viikko2Application",
+            "request": "launch",
+            "mainClass": "hh.backend.viikko2.Viikko2Application",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Viikko1Application",
             "request": "launch",
             "mainClass": "hh.backend.viikko1.Viikko1Application",
@@ -14,6 +21,16 @@
             "cwd": "${workspaceFolder}",
             "mainClass": "hh.backend.c1.C1Application",
             "projectName": "viikko-1",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Viikko2Application<viikko2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "hh.backend.viikko2.Viikko2Application",
+            "projectName": "viikko2",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
